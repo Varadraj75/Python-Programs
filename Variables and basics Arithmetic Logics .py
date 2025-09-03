@@ -85,7 +85,7 @@ fahrenheit= celsis_Temp * 9/5 +32
 print(fahrenheit)
 #Q8:- compare two numbers and store the results as a boolean 
 az,ay= 10,20
-is_a_greater = (az>ay)
+is_a_greater = (az>ay) # true if a is greater than b ,else false and 
 print(is_a_greater)
 
 #Q9:- convert fahrenheit 177.77 to celcius 
