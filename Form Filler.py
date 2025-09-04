@@ -7,6 +7,7 @@ name=str(input("Please enter your name "))
 age=int(input("please enter your age "))
 marks=float(input("please enter your marks "))
 
+
 name = str(name)
 age = str(age)
 marks = str(marks)
@@ -14,3 +15,6 @@ marks = str(marks)
 print("Name:-",name)
 print("Age:-",age)
 print("Marks:-",marks)
+
+#trying to use the boolean concept with the numbers to check the output
+print(3+True)
