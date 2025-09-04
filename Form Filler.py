@@ -15,6 +15,9 @@ marks = str(marks)
 print("Name:-",name)
 print("Age:-",age)
 print("Marks:-",marks)
+print("")
 
+# f is the formatting tag.
+print(f"Name {name} , Age {age} , Marks {marks}")
 #trying to use the boolean concept with the numbers to check the output
 print(3+True)
