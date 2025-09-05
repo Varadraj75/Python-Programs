@@ -214,3 +214,14 @@ print(a is not b)
 
 #Membership Operators -> in iPad
 
+
+#learning formating tag
+age=18
+print("My age is " , age)
+print(f"My age is{age}")
+
+
+
+a=40
+scored = 40
+print("Hey this is the final score",(scored>=a))
