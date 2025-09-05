@@ -80,3 +80,15 @@ elif(age>=13 and age<=64):
     print("The movie ticket pricing is just $6")
 else:
     print("Senior ticket is priced at just $7")
+
+#Q5:- Pet Age Classification
+
+puppy_age = int(input("Enter the age of the pet"))
+if(puppy_age<=1):
+    print("Puppy")
+elif(puppy_age>=1 and puppy_age<3):
+    print("Young Adult")
+elif(puppy_age>=3 and puppy_age<8):
+    print("mature adult")
+elif(puppy_age>=8):
+    print("senior")
