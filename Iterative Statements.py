@@ -58,11 +58,28 @@ while j<11:
 
 
 k= int(input("Please enter the number"))
-k = k+1
 sum=0
 i=0
-while i<k:
+while i<=k:
     sum = sum+i
     i += 1
 
 print(sum)
+
+#Q6:- factorial of a number 
+#using for loop 
+fac = int(input("Input the number"))
+i=1
+faci =1
+for i in range(1,fac+1):
+    faci *= i
+
+print(faci)
+
+#using while loop 
+fac = int(input("Enter the number"))
+i , faci = 1,1 
+while i<=fac:
+    faci *=i
+    i = i+1
+print(faci)
