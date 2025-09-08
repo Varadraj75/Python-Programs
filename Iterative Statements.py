@@ -67,7 +67,7 @@ while i<=k:
 print(sum)
 
 #Q6:- factorial of a number 
-#using for loop 
+      #using for loop 
 fac = int(input("Input the number"))
 i=1
 faci =1
@@ -76,10 +76,23 @@ for i in range(1,fac+1):
 
 print(faci)
 
-#using while loop 
+     #using while loop 
 fac = int(input("Enter the number"))
 i , faci = 1,1 
 while i<=fac:
     faci *=i
     i = i+1
 print(faci)
+
+#Q7:- Fibonacci Series 
+nth = int(input("Find nth term of fibonacci series"))
+n1 , n2 = 0,1
+print(n1)
+print(n2)
+for i in range(2,nth):
+    c=n1+n2
+    print(c)
+    n1=n2
+    n2=c 
+    
+    
