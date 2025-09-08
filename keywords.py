@@ -39,3 +39,21 @@ for i in range(n):
         continue
     else:
        print("I am pilot")
+
+
+
+#Q3:- reverse a number using while loop 
+
+# Logic :- 34 %10 = 4 
+        #. 34/10 = 3
+        #.  3%10 = 3
+        #.  3/10 = 0
+        
+n =34
+rev = 0
+while n !=0:
+    rev = n%10
+    n = n/10
+    
+   
+print(rev)
