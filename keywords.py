@@ -48,12 +48,13 @@ for i in range(n):
         #. 34/10 = 3
         #.  3%10 = 3
         #.  3/10 = 0
-        
-n =34
-rev = 0
-while n !=0:
-    rev = n%10
+
+num = 0
+n=34
+while n>0:
+    num = n%10
+    num *= 10
     n = n/10
-    
-   
-print(rev)
+    num = num+n
+
+print(num)
