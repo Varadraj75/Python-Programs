@@ -85,6 +85,7 @@ while i<=fac:
 print(faci)
 
 #Q7:- Fibonacci Series 
+      # using for loop
 nth = int(input("Find nth term of fibonacci series"))
 n1 , n2 = 0,1
 print(n1)
@@ -95,4 +96,19 @@ for i in range(2,nth):
     n1=n2
     n2=c 
     
+# using while loop 
+nth = int(input("Find nth term of fibonacci series"))
+n1 , n2 = 0,1
+print(n1)
+print(n2)
+i=2
+while i<nth:
+    c = n1+n2
+    print(c)
+    n1=n2
+    n2 = c
+    i +=1
+
+
+
     
