@@ -52,7 +52,7 @@ def tra(len,wid):
     peri = 2*(len+wid)
     return area,peri
     
-
+# positional arrguments 
 print(tra(len,wid))
 
 #Q5:- WAF factorial(n) that returns the factorial of a number. 
