@@ -40,3 +40,30 @@ def square(num):
     return(num*num)
 
 print(square(num))
+
+
+#Q4:- WAF that returns both the area and perimeter of a rectangle 
+
+len = int(input("Enter the length of the rectangle"))
+wid = int(input("Enter the width of the rectangle"))
+
+def tra(len,wid):
+    area = len*wid
+    peri = 2*(len+wid)
+    return area,peri
+    
+
+print(tra(len,wid))
+
+#Q5:- WAF factorial(n) that returns the factorial of a number. 
+
+fact = int(input("Enter the factorial"))
+
+def factorial(fact):
+    i = 1 
+    faci = 1 
+    for i in range(1,fact+1):
+        fact *= i
+    return faci
+
+print(fact)
