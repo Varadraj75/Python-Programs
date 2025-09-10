@@ -8,12 +8,12 @@ import random
 # print(random.randint(a,b))
 
 
-user_move = input()
+
 number = random.randint(0,2)
 while True:
-    user_move = input()
-    if user_move == "quit":
-        break
+    user_move = input("Input something:  ")
+    # if user_move == "quit":
+    #     break
 if(number == 0 ):
     print("Rock")
     if user_move == "Rock":
