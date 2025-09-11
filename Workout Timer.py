@@ -7,5 +7,7 @@ while workout_time>=0:
     workout_time = workout_time -1
 
     if(workout_time == 0):
-        print("Great job!!")
+        print(f"Time reaming: {workout_time} seconds")
+        print("Workout Completed Great job!!")
         break
+        
