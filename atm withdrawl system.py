@@ -1,6 +1,6 @@
 while True:
     amount = int(input())
-
+    
     if(amount%100 == 0 ):
         print(f"Withdrawal of {amount} is sucessful!")
         break
