@@ -17,4 +17,3 @@ print(f"Rounded Temperature 2: {reading_2}°C")
 print(f"Rounded Temperature 3: {reading_3}°C")
 print(f"Average Temperature: {reading_average}°C")
 print(f"Difference in Average Temperature: {diff}°C")
-
