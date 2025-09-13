@@ -38,3 +38,23 @@ real = int(compl.real)
 img = int(compl.imag)
 
 print(real+img)
+
+
+
+
+#Fucntion 
+#defining the function
+# in these age is the parameter
+def isEligible(age):
+    # these age is reference of the value , which will be passed when the function is called 
+    if(age>=18):
+        print("Eligible for voting!")
+    else:
+        print("Not Eligible for voting!")
+
+
+age = int(input("Enter the age "))
+#calling the function
+# in these age is the argument
+isEligible(age)
+
