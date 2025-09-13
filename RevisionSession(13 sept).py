@@ -58,3 +58,15 @@ age = int(input("Enter the age "))
 # in these age is the argument
 isEligible(age)
 
+
+def Elig(ag):
+    if age<=18:
+        return False
+    return True
+a= Elig(18)
+
+if a:
+    print("Eligble")
+else:
+    print("Not eligble")
+
