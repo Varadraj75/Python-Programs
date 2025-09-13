@@ -24,6 +24,12 @@ print(type(x))
 
 
 #Conversion
+# we can't convert the data type from 1 type to the 3rd type for example
+# x="10.2"
+# y=int(x)
+# print(y)
+# print(type(y))
+
 #implicit Conversion:  (this is a type in which interpreter do it automatically)
 x=5
 print(type(x))
@@ -62,3 +68,12 @@ print("My name is Varad I am" , x , "year old" )
 #string formating 
 # by using f in the start and using the {} brackets we can use it 
 print(f"my name is varad and i am {x} year old")
+
+
+# real and imaginary part 
+
+z=3+4j
+x= z.imag
+k = z.real
+print(x)
+print(k)
