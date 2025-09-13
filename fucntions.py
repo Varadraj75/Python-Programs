@@ -2,11 +2,25 @@
 # Code blocks which are created to increase resuabilty , understandable , modularity and cleanliness 
 # Dry :- Don't repeat yourself
 
+# Q:- what are the types of function?
+# Answer:- perameter or function
+# Defination:- 1) Built in 
+# 
+
+
+
+
 # import random , in these random is the module 
 
 # Syntax: 
 # def name_of_function(args/perameters):
 #   pass
+
+#print("varad" , "ravi" , "nathan" , sep="@" , end="/" , flush =True)
+
+#print(obj,sep,end,flush)
+#flush by default value is true
+#
 
 import random
 
