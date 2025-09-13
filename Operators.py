@@ -213,13 +213,25 @@ print(a is not b)
 
 
 #Membership Operators -> in iPad
+z = "amazing"
+present = "a" in z
+print(present)
+prs = "a" not in z
+print(prs)
 
 
+ko = "I am learning python programming"
+kj = "Python" in ko 
+print(kj)
 #learning formating tag
 age=18
 print("My age is " , age)
 print(f"My age is{age}")
 
+
+library = ["Maths" , "Science" , "English"]
+lra = "History" in library
+print(lra)
 
 
 a=40
