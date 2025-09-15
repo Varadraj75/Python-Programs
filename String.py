@@ -75,7 +75,7 @@ print(none[::3])
 #find() : it gives me the starting index of the word which we are passing in the original string s. 
 
 s= " Hello world " 
-print(s.find('o'))
+print("finding",s.find('o'))
 
 print(s)
 #Strip() : it removes the spaces from the start and the end
