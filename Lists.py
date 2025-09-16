@@ -113,6 +113,16 @@ print(l3)
 # count() :- Counts the number x of elements in the list
 print(l3.count(6))
 
-# extend():- Extends the list by another list
-l3.extend(5,6,7,8)
+# extend[]:- Extends the list by another list
+l3.extend[5,6,7,8]
 print(l3)
+
+# sort():- it sorts the list in ascending order.
+l3.sort()
+print(l3)
+
+#reverse() :- it reverse the list
+l3.reverse()
+
+#clear() :-it is use to clear all the elements
+l3.clear()
