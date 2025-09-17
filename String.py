@@ -46,14 +46,14 @@ print(s[13:16])
 #Reverse the string
 print(s[::-1])
 
-#len(s) is used to fidn the length of string s. 
+#len(s) is used to find the length of string s. 
 p=""
 #Reverse using for loop
 for i in range(len(s)-1 , -1,-1):
     print(s[i],end="")
 
 print("")
-#Q2:- 
+#Q2:-
 l="Hello, Python World!"
 print(l[14:19])
 for i in range(1,len(l),2):
