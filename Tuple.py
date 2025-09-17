@@ -47,3 +47,14 @@ print(tpl1*3)
 # Tuple Membership: (in, not in)
 print(2 in tpl2)
 print(2 not in tpl2)
+
+#Iteration:
+for item in tpl2:
+    print(item,end=" ")
+
+
+#Count(arg): count the number of times and element appears
+print(tpl1.count(2))
+
+# index() : Inorder to find the frst index of a particular element
+print(tpl2.index(2))
