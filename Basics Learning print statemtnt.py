@@ -31,4 +31,4 @@ print("""
 print("\n     Menu \n" , "Tea     Rs.10\n" , "Coffee  Rs.20\n" , "Juice   Rs.30\n")
 
 
-# for the \t it is know as tab and it created 4 spaces 
+# for the \t it is know as tab and it created 8 spaces 
