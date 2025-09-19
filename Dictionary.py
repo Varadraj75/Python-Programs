@@ -27,3 +27,12 @@ print("Age" in d3)
 print("college" in d3)
 
 
+#len()-> it is the function to calculate the number of key,value pairs
+print(len(d3))
+
+
+# keys():
+print(d3.keys())
+
+for key in d3.keys():
+    print(key)
