@@ -36,3 +36,19 @@ print(d3.keys())
 
 for key in d3.keys():
     print(key)
+
+
+# Items()
+print(d3.items())
+
+for (key,value) in d3.items():
+    print(key,value)
+
+
+#update method in dictionary
+d3.update({'Balance':0, 'Location':'Bangalore'})
+print(d3)
+
+#Nested Dictionaries:
+d4 = {'Description':{'Name':'Rahul' , 'Age':21 , 'College':'PST'}}
+print(d4)
