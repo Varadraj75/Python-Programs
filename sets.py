@@ -34,3 +34,29 @@ print(my_set)
 # Add multiple elements in the set 
 my_set.update(["Varad","2007"])
 print(my_set)
+
+#Remove the element from the set : .remove() method!
+my_set.remove(2)
+print(my_set)
+
+# Discard :- removes the element passed: do not give error if key is not ther 
+my_set.discard('591')
+print(my_set)
+
+# pop(): removes the arbitrary element from the set
+my_set.pop()
+print(my_set)
+
+#clear() : remove all the elements from the set
+my_set.clear()
+print(my_set)
+my_set.add(0)
+#Membership operator in set: in , not in : relatively efficient (faster)
+print(0 in my_set)
+print(0 not in my_set)
+
+# Calculating the size of the set: len()
+print(len(my_set))
+
+for item in my_set:
+    print(item, end=" ")
