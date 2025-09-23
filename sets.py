@@ -134,3 +134,13 @@ print(fronzen_empty_set)
 # set 13 is the immutable version of set 10 
 set13 = frozenset(set10)
 print(set13)
+
+
+# Create a set of odd numbers present in the below list  using set comprehension
+l=[1,2,3,4,5,6,7,8,12,134]
+set1000 = set(l)
+set100 = {i for i in range(len(set1000)) if(i%2!=0)}
+setodd={i**1/2 for i in range(len(set100))}
+print(set100)
+print(setodd)
+
