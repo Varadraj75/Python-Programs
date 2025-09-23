@@ -126,3 +126,5 @@ l3.reverse()
 
 #clear() :-it is use to clear all the elements
 l3.clear()
+
+

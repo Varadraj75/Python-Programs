@@ -60,3 +60,23 @@ print(len(my_set))
 
 for item in my_set:
     print(item, end=" ")
+
+
+#Set operation:
+# 1. Union of the set:- 
+set1 = {1,2,3,4,5,}
+set2={2,3,6,43,7,5}
+print(set1.union(set2))
+# 2. Intersection: gives common elements in setA and setB 
+print(set1.intersection(set2))
+
+# 3. Difference operation: elements which are in A but not in B. 
+print(set1.difference(set2))
+print(set2.difference(set1))
+
+#4. Symmetric Difference: gives me the elements present in either set1 or set2 but not in both
+print(set1.symmetric_difference(set2))
+print(set1^set2)
+
+#5 Subset: checks if all elements of set1 are present in set2
+print(set1.issubset(set2))
