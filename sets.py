@@ -144,3 +144,19 @@ setodd={i**1/2 for i in range(len(set100))}
 print(set100)
 print(setodd)
 
+
+# create a list of  N space separated integers , and find the duplicate elements in it and print the list of duplicate elements 
+n = int(input("Enter the input "))
+lset = list()
+num = 0
+dup=[]
+for i in range(n):
+    num = int(input())
+    lset.append(num)
+
+for i in range(len(lset)):
+    for j in range(i+1 , len(lset)):
+        if lset[i] == lset[j] and lset[i] not in dup:
+            dup.append(lset[i])
+
+print(dup)
