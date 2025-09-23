@@ -89,3 +89,48 @@ set3 = {1,2,3,4}
 set4={5,6,7,8}
 print(set3.isdisjoint(set4))
 print(set1.isdisjoint(set2))
+
+#8. Creating a copy of the set: 
+new_set = set3.copy()
+print(new_set)
+
+#9. Create a set of squares of numbers from 1 to 10 
+set6=set()
+for i in range(1,11):
+    set6.add(i*i)
+print(set6)
+
+set7={i*i for i in range(1,11)}
+print(set7)
+
+# Create a set of square root of numbers from 1 to 100 and print it
+set8={i**0.5 for i in range(1,101)}
+print(set8)
+
+# Create a set of even numbers from 1 to 100 
+set9={i for i in range(1,101) if(i%2==0)}
+print(set9)
+
+# Create a set of odd numbers from 1 to 100 
+set10={i for i in range(1,101) if(i%2!=0)}
+print(set10)
+
+# Set comprehension using iterable
+# Create a set from a string "Hello World" which contains only vowels. 
+s ="Hello World"
+vowels = "aeiouAEIOU"
+set11 = set()
+for char in s:
+    if char in vowels:
+        set11.add(char)
+print(set11)
+
+set12 = {char for char in s if char in vowels}
+print(set12)
+
+#frozen set:- 
+fronzen_empty_set = frozenset() # it creates an immutable version of an empty set
+print(fronzen_empty_set)
+# set 13 is the immutable version of set 10 
+set13 = frozenset(set10)
+print(set13)
