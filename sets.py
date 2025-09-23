@@ -80,3 +80,12 @@ print(set1^set2)
 
 #5 Subset: checks if all elements of set1 are present in set2
 print(set1.issubset(set2))
+
+#6. Superset:
+print(set1.issuperset(set2))
+
+#7. Disjoint set:
+set3 = {1,2,3,4}
+set4={5,6,7,8}
+print(set3.isdisjoint(set4))
+print(set1.isdisjoint(set2))
