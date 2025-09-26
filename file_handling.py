@@ -17,6 +17,8 @@ i.close()
 
 
 #  w is for writing inside the file , usage for more than one write will overwrite the data
+# in write mode :-
+#  methods ->  write(), writelines()
 j=open("fle.txt",'w')
 j.write('welcome to pst \n varad here')
 j.write('hi')
@@ -32,3 +34,13 @@ k=open("file.txt",'a')
 k.write('welcome to pst \n varad here')
 k.write('hi')
 k.close()
+
+# read these file with 'with' statement  , as means alas/alternative name
+with open('demo.txt','r') as f:
+    print(f.read())
+
+with open('fle.txt','w') as f:
+    f.write("file handling")
+
+with open('fle.txt','a') as f:
+    f.write(" heyy welcome to pst")
