@@ -16,5 +16,19 @@ print(f.readlines())
 i.close()
 
 
+#  w is for writing inside the file , usage for more than one write will overwrite the data
 j=open("fle.txt",'w')
-j.write('welcome to pst')
+j.write('welcome to pst \n varad here')
+j.write('hi')
+# print statement will return the number of characters were wrote 
+print(j.write('hi'))
+li=['hey','welcome','pst']
+j.writelines(li)
+j.close()
+
+
+# a is for append , it will add the content inside the text file
+k=open("file.txt",'a')
+k.write('welcome to pst \n varad here')
+k.write('hi')
+k.close()
