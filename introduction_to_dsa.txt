@@ -5,4 +5,23 @@
 3. Linked List
 4. Stack
 5. Queue
-6. Tree 
+6. Tree
+7. Graph
+
+
+Time complexity:- BIG O notation O() (o is capital ) and () is for the realtion
+    it says how number of input varies the time taken by the program.
+
+1. Constant time complexity O(1):- number of input doesn't depend on execusion time  , always the work remain same , always realtion between the input and output remains same 
+for example:- program:- 
+                        n=int("Enter the input")
+                         print(n)
+these is O(1) notation
+
+2. Linear time complexity O(n):- 
+we have to go to each any every element one time in the iteration , visit everyone
+
+3. Quadratic time complexity O(n^2): 
+each and every element has to visit other element 
+
+4. logarthmic time complexity O(log n):
