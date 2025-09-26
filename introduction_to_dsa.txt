@@ -25,3 +25,7 @@ we have to go to each any every element one time in the iteration , visit everyo
 each and every element has to visit other element 
 
 4. logarthmic time complexity O(log n):
+
+
+
+constant >> logarthmic >> linear >> Quadratic
