@@ -154,6 +154,8 @@ for i in range(n):
     num = int(input())
     lset.append(num)
 
+
+
 for i in range(len(lset)):
     for j in range(i+1 , len(lset)):
         if lset[i] == lset[j] and lset[i] not in dup:
