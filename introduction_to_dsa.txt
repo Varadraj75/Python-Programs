@@ -1,4 +1,5 @@
                                                         Introduction to DSA
+DSA tells us the way to organise or storing or retiving the data in the efficient way/
 
 1. Array
 2. String 
