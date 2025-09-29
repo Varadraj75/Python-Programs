@@ -11,6 +11,7 @@ DSA tells us the way to organise or storing or retiving the data in the efficien
 
 
 Time complexity:- BIG O notation O() (o is capital ) and () is for the realtion
+it is relation between input size and the time taken by the program to run the code.
     it says how number of input varies the time taken by the program.
 
 1. Constant time complexity O(1):- number of input doesn't depend on execusion time  , always the work remain same , always realtion between the input and output remains same 
