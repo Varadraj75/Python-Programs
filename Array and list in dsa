@@ -1,0 +1,25 @@
+# List , it can store any data element , it stores the reference of the data 
+li=[1,2,"hello",2.5,6]
+print(li)
+
+# Array , it can only store same datatype element  , it stores the actual data 
+import array as ar
+a = ar.array('f',[1,2,3,4,55])
+print(a)
+print(*a)
+# adding the element in the last 
+a.append(100)
+# insert the element in the index which we will mention
+a.insert(2,1098.00)
+print(*a)
+# default value of pop is -1 
+# pop will remove the element from the last  , in pop we have to mention the index
+a.pop()
+a.pop(2)
+print(*a)
+
+# remove will remove the element direct
+a.remove(55)
+print(*a)
+
+# printing using indexing
