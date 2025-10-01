@@ -25,11 +25,14 @@ import array as ar
 a = ar.array('f',[1,2,3,4,55,1,1,1,1,1,1,11,1,1])
 print(a)
 print(*a)
+
 # adding the element in the last 
 a.append(100)
+
 # insert the element in the index which we will mention
 a.insert(2,1098.00)
 print(*a)
+
 # default value of pop is -1 
 # pop will remove the element from the last  , in pop we have to mention the index
 a.pop()
