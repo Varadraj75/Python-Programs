@@ -60,3 +60,41 @@ print(a.index(11.0))
 # to extend the array
 a.extend([100,200,300,400])
 print(*a)
+
+
+
+#Subarray -> continuous manner  , order matters
+# ab = [2,5,1,6,7,4]
+# j=0
+# for i in range(len(ab)+1):
+#     print(ab[0:i])
+#     print(ab[1:i])
+#     print(ab[2:i])
+#     print(ab[3:i])
+#     print(ab[4:i])
+#     print(ab[5:i])
+ab = [2,5,1,6,7,4]
+
+# for i in range(1, len(ab)+1):   # start from 1 so slices aren’t empty
+#     print(ab[0:i])
+#     print(ab[1:i]) if i > 1 else None
+#     print(ab[2:i]) if i > 2 else None
+#     print(ab[3:i]) if i > 3 else None
+#     print(ab[4:i]) if i > 4 else None
+#     print(ab[5:i]) if i > 5 else None
+
+
+for i in range(len(ab)):
+    for j in range(i,len(ab)):
+        print(ab[i:j+1])
+
+
+li = [2,5,4,3,1,6]
+
+for i in range(0,len(li)):
+    for j in range(i,len(li)):
+        for k in range(i,j+1):
+            print(li[k],end="")
+        print()
+
+# Subsequence -> No need of continous , order matters 
