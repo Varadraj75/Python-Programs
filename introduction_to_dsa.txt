@@ -30,4 +30,4 @@ each and every element has to visit other element
 
 
 
-constant >> logarthmic >> linear >> Quadratic
+square root >>constant >> logarthmic >> linear >> Quadratic >> cubic
