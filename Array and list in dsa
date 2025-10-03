@@ -98,3 +98,5 @@ for i in range(0,len(li)):
         print()
 
 # Subsequence -> No need of continous , order matters 
+
+# subarray-> to find the number of subarray we use the formula  n*(n+1)/2
