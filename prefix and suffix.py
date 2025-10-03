@@ -25,5 +25,13 @@ sum=0
 suff_sum =[0]*n
 # to iterate the loop from the back , iterating the loop from the reverse
 for j in range(n-1,-1,-1):
-    suff_sum[j]= suff_sum[j-i] +li[j]
+    suff_sum[j]= suff_sum[j-4] +li[j]
 print(suff_sum)
+
+#method 2:
+s_sum=[]
+sum=0
+for j in range(n-1,-1,-1):
+    sum = sum + li[j]
+    s_sum.insert(0,sum)
+print(s_sum)
