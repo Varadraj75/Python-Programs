@@ -2,7 +2,8 @@
 
 # Using prefix logic out here:
 # Method 1
-li=[1,2,3,4,5]
+li=[1,2,3,4,5,6,7]
+n=len(li)
 p_sum =[]
 sum=0
 for ele in li:
@@ -25,7 +26,7 @@ sum=0
 suff_sum =[0]*n
 # to iterate the loop from the back , iterating the loop from the reverse
 for j in range(n-1,-1,-1):
-    suff_sum[j]= suff_sum[j-4] +li[j]
+    suff_sum[j]= suff_sum[j-(n-1)] +li[j]
 print(suff_sum)
 
 #method 2:
