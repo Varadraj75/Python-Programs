@@ -2,7 +2,7 @@
 
 # Using prefix logic out here:
 # Method 1
-li=[1,2,3,4,5,6,7]
+li=[1,10,20,-3,-2,10] 
 n=len(li)
 p_sum =[]
 sum=0
