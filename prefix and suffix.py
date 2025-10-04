@@ -36,3 +36,4 @@ for j in range(n-1,-1,-1):
     sum = sum + li[j]
     s_sum.insert(0,sum)
 print(s_sum)
+
