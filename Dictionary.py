@@ -15,6 +15,9 @@ d3["Age"] = "Hidden"
 d3["College"] = "PST"
 print(d3)
 
+#iteration over the values
+for j in d3.values():
+    print(j)
 
 # Retrieving values from disctionaries: name_of_dictionary[key]
 print(d3["Name"])
