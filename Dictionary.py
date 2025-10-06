@@ -55,3 +55,19 @@ print(d3)
 #Nested Dictionaries:
 d4 = {'Description':{'Name':'Rahul' , 'Age':21 , 'College':'PST'}}
 print(d4)
+
+
+#06-10-2025 
+# JP SIR CLASS:- 
+# Frequency in dictionaries:
+s="varadrajagrawal"
+freq={}
+for ch in s:
+    if (ch in s):
+        # if(ch in freq):
+        #     freq[ch] = freq[ch]+1
+        # else:
+        #     freq[ch]=1
+         freq[ch]=freq.get(ch,0)+1
+
+print(freq)
