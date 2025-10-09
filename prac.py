@@ -33,3 +33,5 @@ for ele in li:
         value_set.add(ele)
 
 print(output)
+
+print(-10%3)
