@@ -123,5 +123,3 @@ for ele in nums:
         value_set.add(ele)
 
 print(output)
-
-
