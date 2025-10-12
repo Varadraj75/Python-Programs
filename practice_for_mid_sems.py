@@ -11,7 +11,6 @@ for ele in li:
 print(min_ele)
 print(max_ele)
 
-
 #Find the duplicates in the list 
 
 l=[1,1,2,2,5,2,6,7,5,3,3]
