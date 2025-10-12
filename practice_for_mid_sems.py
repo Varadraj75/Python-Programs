@@ -122,3 +122,17 @@ for ele in nums:
         value_set.add(ele)
 
 print(output)
+
+#find the sum two pairs 
+
+li=[1,2,3,3,4,5,6,2342,234,1]
+res=[-1,-1]
+target=9
+for i in range(len(li)):
+    for j in range(i+1,len(li)):
+        if(li[i]+li[j]==target):
+            res[0]=li[i]
+            res[1]=li[j]
+            break
+
+print("The pair of two numbers are",res)
