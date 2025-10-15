@@ -16,6 +16,8 @@ print(f.readlines())
 i.close()
 
 
+
+
 #  w is for writing inside the file , usage for more than one write will overwrite the data
 # in write mode :-
 #  methods ->  write(), writelines()
