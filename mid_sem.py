@@ -15,7 +15,7 @@
 # # f.writelines(li)
 
 
-# str="Varad raj agrawal"
+# # str="Varad raj agrawal"
 
 # for i in range(65, 70):
 #     print((chr(i) + " ") * (i - 64))

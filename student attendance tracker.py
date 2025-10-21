@@ -13,3 +13,5 @@ while day<=total_days:
         print(f"Attendance recorded for {name} on day {day}")
         day += 1
 
+
+
