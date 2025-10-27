@@ -52,3 +52,14 @@ try:
     print("Hello".append(10))
 except AttributeError:
     print("It is an attribute error")
+
+#code 5:
+age = int(input())
+
+try:
+    if(age<18):
+        raise ValueError("age should be more than 18")
+except ValueError as a:
+    print(a)
+else:
+    print("you are eligible to vote")
