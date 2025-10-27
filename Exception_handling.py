@@ -47,3 +47,8 @@ except IndexError:
 except TypeError:
     print("it is an TypeError")
 
+#code 4:
+try:
+    print("Hello".append(10))
+except AttributeError:
+    print("It is an attribute error")
