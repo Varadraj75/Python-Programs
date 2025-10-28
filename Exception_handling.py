@@ -63,3 +63,19 @@ except ValueError as a:
     print(a)
 else:
     print("you are eligible to vote")
+
+
+#NESTED try and except method
+try:
+    try:
+        a=int(input())
+        b= int(input())
+        try:
+            res=a/b
+
+        except ValueError:
+            print("Enter valid input")
+    except ZeroDivisionError:
+        print("Enter the dinominator other than 0")
+except Exception as e:
+    print("error is",e)
