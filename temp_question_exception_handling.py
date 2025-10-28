@@ -7,7 +7,8 @@ except ZeroDivisionError as a:
 except Exception:
     print("An unknown error occurred.")
 else:
+    print("The celcius temp is",temp)
     far = (temp*9/5)+32
-    print(far)
+    print("The fa temp is",temp,far)
 finally:
     print("Code is working")
