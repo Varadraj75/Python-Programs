@@ -11,3 +11,6 @@ while True:
     else:
         data = o.read()
         print(data)
+    finally:
+        o.close()
+        print("task completed file closed")
