@@ -93,3 +93,22 @@ try:
 
 except negativeerror as msg:
     print(msg)
+
+
+# Question in exception handling:-
+#ask user to enter the number should be in range of 0 to 100 . if number lesser than 0 than throw error named as
+# lessnum 
+class lessnumerror(Exception):
+    pass
+class morenumerror(Exception):
+    pass
+o = int(input())
+try:
+    if(o<0):
+        raise lessnumerror("lessnumerror")
+    elif(o>100):
+        raise morenumerror("morenumerror")
+except lessnumerror as a:
+    print(a)
+except morenumerror as b:
+    print(b)
