@@ -1,5 +1,7 @@
 # Constructor-> 
-
+# Constructor is a method which will be called when object is created
+#types of constuctor->
+# Default constructor and parameter constructor
 class classplus:
     #attribute
     brand_color="blue"
