@@ -79,3 +79,17 @@ try:
         print("Enter the dinominator other than 0")
 except Exception as e:
     print("error is",e)
+
+#creating a custom error using Exception class
+class negativeerror(Exception):
+    pass
+
+n= int(input())
+try:
+    if(n<0):
+        raise negativeerror("You have entered negative number")
+    else:
+        print("correct")
+
+except negativeerror as msg:
+    print(msg)
