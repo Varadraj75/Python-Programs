@@ -35,3 +35,21 @@ l1.display()
 l2= Employee("Varad",10000,"management")
 l2.bonus()
 l2.display()
+
+#Q3:- calculator
+class calculator:
+
+    def addition(self,a,b):
+        print(a+b)
+    def subtraction(self,a,b):
+        print(b-a)
+    def multiplication(self,a,b):
+        print(a*b)
+    def division(self,a,b):
+        print(a/b)
+
+c1 = calculator()
+c1.addition(10,20)
+c1.subtraction(10,20)
+c1.multiplication(10,20)
+c1.division(20,10)
