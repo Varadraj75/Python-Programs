@@ -13,4 +13,3 @@ class classplus:
 
 pst=classplus("pst","Yellow")
 testbook = classplus("testbook","blue")
-
