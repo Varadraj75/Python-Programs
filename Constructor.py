@@ -7,7 +7,7 @@ class classplus:
     brand_color="blue"
     
     #defining constructor -> method-constructor
-    def __init__(self,company,color):
+    def __init__(self,company,color="white"):
         print(f"The company color for {company} is {color}")
     
 
