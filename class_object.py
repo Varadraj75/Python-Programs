@@ -16,10 +16,7 @@ class student:
         self.gender = input("Enter the gender")
 
 s1 = student()
-s1.roll_no=10
-s1.name="hari"
-s1.age=19
-s1.gender="male"
+
 
 s1.set_info()
 s1.display_info()
