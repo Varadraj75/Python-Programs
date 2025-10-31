@@ -12,3 +12,7 @@ class BankAccount:
 obj1=BankAccount()
 obj1.scholorship(10024095235)
 obj1.manager()
+# print(_BankAccount__balance)
+
+# _BankAccount.__balance
+

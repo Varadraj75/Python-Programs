@@ -14,5 +14,5 @@ class Krishna(hari):
 
 obj1 = Krishna()
 obj1.display_info()
-
+print(obj1._balance)
 
