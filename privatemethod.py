@@ -1,5 +1,6 @@
 class BankAccount:
-    __balance = 12000
+    def __init__(self):
+        __balance = 12000
 
     #public method (getter function)
     def manager(self):
@@ -12,7 +13,10 @@ class BankAccount:
 obj1=BankAccount()
 obj1.scholorship(10024095235)
 obj1.manager()
+
+print(obj1._BankAccount__balance)
 # print(_BankAccount__balance)
+
 
 # _BankAccount.__balance
 
