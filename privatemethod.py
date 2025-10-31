@@ -13,7 +13,7 @@ class BankAccount:
 obj1=BankAccount()
 obj1.scholorship(10024095235)
 obj1.manager()
-
+#class mangaling
 print(obj1._BankAccount__balance)
 # print(_BankAccount__balance)
 
