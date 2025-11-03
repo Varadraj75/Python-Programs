@@ -29,5 +29,6 @@ class person:
 p1= person()
 # print(p1.name)
 # print(p1.atmpin)
+p1.print_info()
 p1.se_atmpin(2358) #updated the private attribute
 p1.ge_atmpin() # accessed the private attribute
