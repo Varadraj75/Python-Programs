@@ -32,3 +32,6 @@ p1= person()
 p1.print_info()
 p1.se_atmpin(2358) #updated the private attribute
 p1.ge_atmpin() # accessed the private attribute
+
+
+
