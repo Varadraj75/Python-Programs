@@ -17,3 +17,5 @@ child().display()
 
 obj_parent = parent()
 obj_parent.display()
+
+# 2) Run-time 
