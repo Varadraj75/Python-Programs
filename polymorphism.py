@@ -19,3 +19,19 @@ obj_parent = parent()
 obj_parent.display()
 
 # 2) Run-time 
+
+class sbi:
+    def interest_rate(self):
+        print("Interest rate is 7%")
+
+class hdfc:
+    def interest_rate(self):
+        print("Interest rate is 6.5%")
+
+class ICICI:
+    def interest_rate(self):
+        print("Interest rate is 8%")
+
+def show_interest(bank):
+    bank.interest_rate()
+
