@@ -1,7 +1,7 @@
 # 1.compile Time.( overloading)
 # 2.run time ( overriding)
 
-
+#Duck typing kind of thing
 # def add(a,b):
 #     print("function 1")
 #     return a+b
@@ -29,6 +29,7 @@
 # show_int(b1)
 # show_int(b2)
 # show_int(b3)
+
 
 
 
