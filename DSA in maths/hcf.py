@@ -29,3 +29,11 @@ for i in range(1,min_value+1):
         res = i
 
 print(res)
+
+# another approach
+a=16
+b=18
+while(b!=0):
+    a,b = b,a%b
+
+print(a)
