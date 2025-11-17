@@ -11,5 +11,12 @@ node3 = node(4)
 node1.next = node2
 node2.next = node3
 
-print(node2.next.data)
-print(node1.next.next.data)
+# print(node2.next.data)
+# print(node1.next.next.data)
+
+head = node1 
+temp = head
+while(temp is not None):
+    print(f"{temp.data}->",end="")
+    temp = temp.next
+print("None")
