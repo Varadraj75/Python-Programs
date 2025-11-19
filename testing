@@ -1,0 +1,17 @@
+nums=[5,6,7,8,8,10]
+target = 10
+n=len(nums)
+lis = list()
+low = 0
+high = n-1
+while low<=high:
+    mid = (low+high)//2
+    if(nums[mid]==target):
+        lis.append(mid)
+    elif(nums[mid]<target):
+        low = low +1
+    else:
+        high = high -1 
+        
+
+print(lis)
