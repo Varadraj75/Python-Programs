@@ -21,14 +21,31 @@ class Linkedlist:
             temp = temp.next
         
         temp.next = newnode
-    def insertatpost():
-        pass
+    def insertatpost(self,val,pos):
+        newnode = Node(val)
+        if(pos==1):
+            self.insertathead(val)
+            return
+        
+        temp = self.head
+        count = 1
+        while(temp is not None and count<pos-1):
+            temp = temp.next
+            count += 1
+        
+        if(temp is None):
+            print("Invalid given postion")
+            return 
+        
+        newnode.next = temp.next
+        temp.next=newnode
     def display(self):
         temp = self.head
         while(temp is not None):
             print(f"{temp.data}->",end="")
             temp = temp.next
-        
+    
+
         print("None")
 
 
