@@ -6,8 +6,10 @@ class Node:
 class Linkedlist:
     def __init__(self):
         self.head=None
-    def insertathead():
-        pass
+    def insertathead(self,val):
+        newnode = Node(val)
+        newnode.next=self.head
+        self.head = newnode
     def insertatend(self,val):
         newnode = Node(val)
         if(self.head is None):
