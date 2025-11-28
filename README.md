@@ -46,7 +46,7 @@ Small but functional Python scripts built to demonstrate real-world application 
 - Calculator programs  
 - ATM simulation  
 - Attendance or student-record based logic  
-- QR code generator (if present)  
+- QR code generator 
 These projects combine multiple programming concepts into cohesive scripts.
 
 ## Usage
